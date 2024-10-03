@@ -7,7 +7,7 @@
   /* Body Styling: Sets a default background and font */
   body {
     font-family: 'Montserrat';
-    background: #f8f9fa70;
+    background: #f8f9fa4f;
   }
   
   /* Header Section: Credit score styling */
@@ -189,11 +189,13 @@
   
   /* Text inside Second Main Section: Sets width and margin for paragraphs */
   .second-main p {
-    width: 65%;
-    margin: auto;
+    width: 830px;
+    margin:0 auto;
+    /* text-align: left; */
     font-family: 'Montserrat';
     font-size: 16px;
     font-weight: 400;
+    text-transform: capitalize;
   }
   
   /* Credit Purchase Box: Centers and styles the credit purchase input and button */
@@ -202,6 +204,7 @@
     margin: 0 auto;
     background-color: #fff;
     padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
   }
   
   /* Input Field Styles: Adds padding, border color, and radius for the input fields inside credit purchase box */
@@ -269,6 +272,8 @@
     background-color: #fff;
     padding: 28px 32px;
     line-height: 2.0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                0 6px 20px rgba(0, 0, 0, 0.1);
   }
   
   /* Plan Box Heading: Styles the heading inside each plan box */
