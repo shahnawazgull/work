@@ -7,13 +7,13 @@
   /* Body Styling: Sets a default background and font */
   body {
     font-family: 'Montserrat';
-    background: #f8f9fa;
+    background: #f8f9fa70;
   }
   
   /* Header Section: Credit score styling */
   .admin-header .credit-score span {
     color: #000;
-    font-size: 1.2rem;
+    font-size: 12px;
     font-weight: 600;
   }
   
@@ -88,6 +88,7 @@
   .bill {
     text-transform: capitalize;
     border: 1px solid rgba(128, 128, 128, 0.39);
+    border-top: 2px solid rgba(128, 128, 128, 0.39);
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
@@ -124,7 +125,7 @@
     text-transform: capitalize;
     border: none;
     padding: 8px 12px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #000;
   }
@@ -328,6 +329,8 @@
     cursor: pointer;
     margin-bottom: 0.67rem;
     transition: all ease-in 0.3s;
+    font-size: 19px;
+    font-weight: 500;
   }
   
   /* Upgrade Button: Special styling for the upgrade button */
